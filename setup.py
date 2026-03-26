@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="uzmorph",
-    version="0.1.0",
+    version="1.1.8",
     author="Ulugbek Salaev",
     author_email="ulugbek.salaev@urdu.uz",
     description="A rule-based morphological analyzer for the Uzbek language based on CSE (Complete Set of Endings) and annotated morphological tags",
@@ -10,10 +10,9 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/UlugbekSalaev/uzmorph", 
     packages=find_packages(),
-    py_modules=["uzmorph"],
     include_package_data=True,
     package_data={
-        "": ["*.csv"],
+        "uzmorph": ["data/*.csv"],
     },
     classifiers=[
         "Programming Language :: Python :: 3",

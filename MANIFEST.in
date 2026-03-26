@@ -1,2 +1,8 @@
-include *.csv
-recursive-include . *.csv
+include uzmorph/data/*.csv
+include README.md
+include LICENSE
+ignore test_accuracy.py
+ignore combine_datasets.py
+ignore create_root_csv.py
+ignore fix_verb_stems.py
+ignore fix_prn_tags.py

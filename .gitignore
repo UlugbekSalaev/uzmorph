@@ -1,4 +1,9 @@
-# Default .gitignore for Python projects
+# Internal Datasets (Large)
+uzbek_pos_dataset_clean.csv
+master_uzbek_stem_pos.csv
+hunspell_dataset/
+
+# Python cache / artifacts
 __pycache__/
 *.py[cod]
 *$py.class
