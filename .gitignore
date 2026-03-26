@@ -1,26 +1,16 @@
-# Internal Datasets (Large)
-uzbek_pos_dataset_clean.csv
-master_uzbek_stem_pos.csv
-hunspell_dataset/
+# Ignore everything
+/*
 
-# Python cache / artifacts
-__pycache__/
-*.py[cod]
-*$py.class
+# Un-ignore essentials
+!uzmorph/
+!README.md
+!LICENSE
+!pyproject.toml
+!.gitignore
+!app.py
+!test_accuracy.py
 
-# Distribution / packaging
-build/
-dist/
-uzmorph.egg-info/
-
-# Environments
-.venv/
-env/
-venv/
-ENV/
-
-# IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
+# Ignore Python artifacts inside folders
+**/__pycache__/
+**/*.py[cod]
+**/*.egg-info/
