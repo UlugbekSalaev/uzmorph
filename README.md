@@ -1,10 +1,10 @@
-# uzmorph - Uzbek Morphological Analyzer (Rule-Based + Lexicon)
+# uzmorph - Uzbek Morphological Analyzer using Complete Set of Ending (CSE)
 
-**uzmorph** is a professional-grade morphological analyzer for the Uzbek language that combines a massive lexicon (~122k stems) with **CSE (Complete Set of Endings)** morphological rules. It supports robust suffix stripping and multi-POS disambiguation for high-accuracy linguistic analysis.
+**uzmorph** is a morphological analyzer for the Uzbek language that combines a massive lexicon (~122k stems) with **CSE (Complete Set of Endings)** morphological rules. It supports robust suffix stripping and multi-POS disambiguation for high-accuracy linguistic analysis.
 
 ## Key Features
 
-- **High Accuracy:** Achieved **100.00% Word Coverage Accuracy** on a sample of 20,000 unique Uzbek words.
+- **High Accuracy:** Achieved **93% Word Coverage Accuracy** on a sample of 20,000 unique Uzbek words.
 - **Massive Lexicon:** Built with over **122,000 unique stem-POS pairs**.
 - **Rule-Based CSE Engine:** Implements the **Complete Set of Endings** paradigm for agglutinative suffix analysis.
 - **Multi-POS Support:** Handles ambiguous words (e.g., `ot` as both Noun "horse" and Verb "throw") by validating suffix rules against lexicon POS.
@@ -61,20 +61,13 @@ Based on evaluation against the **uz-hunspell** and **Kaharjan** datasets:
 ## Deployment Guides
 
 ### GitHub
-1. Initialize git: `git init`
-2. Add files: `git add .`
-3. Commit: `git commit -m "Initial release"`
-4. Push to your repository.
+https://github.com/UlugbekSalaev/uzmorph
 
 ### Hugging Face Space
-1. Create a "Streamlit" Space on Hugging Face.
-2. Upload `app.py`, `uzmorph/`, `pyproject.toml`, and `README.md`.
-3. The Space will automatically build and serve the app.
+https://huggingface.co/spaces/ulugbeksalaev/uzmorph
 
-### PyPI (Publishing)
-1. Build the distribution: `python -m build`
-2. Upload using twine: `python -m twine upload dist/*`
+### PyPI 
+https://pypi.org/project/uzmorph/
 
 ## License
-
 MIT
