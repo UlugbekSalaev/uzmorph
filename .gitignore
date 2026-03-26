@@ -1,14 +1,11 @@
 # Ignore everything
 /*
 
-# Un-ignore essentials
+# Un-ignore ONLY the core package folder and packaging metadata
 !uzmorph/
-!README.md
-!LICENSE
 !pyproject.toml
+!LICENSE
 !.gitignore
-!app.py
-!test_accuracy.py
 
 # Ignore Python artifacts inside folders
 **/__pycache__/
